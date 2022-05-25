@@ -1,0 +1,150 @@
+body{
+  background-color: #CCF3EE;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+a{
+  margin: 10px 20px;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin: 50px auto 0px auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+p{
+  line-height: 2
+}
+
+a{
+  color: #11999E;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+.top-container{
+padding-top: 100px;
+position: relative;
+}
+
+.middle-container{
+padding-top: 50px;
+position: relative;
+margin:100px 0;
+}
+
+.ucloud{
+  position:absolute;
+  right: 300px;
+  top:40px;
+
+}
+
+.bcloud{
+  position:absolute;
+  left:250px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.computer{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.edit{
+   width: 25%;
+   float: right;
+   padding-left: 30px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  text-shadow: 2px 2px 3px #666666;
+  font-family: 'Montserrat', sans-serif ;
+  color: #ffffff;
+  font-size: 15px;
+  background: #57b0eb;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.talk{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container{
+  background-color: #11999E;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+  margin:10px 20px;
+}
+
+.footer img {
+    transition: all 0.5s ease-in-out;
+}
+.footer-link:hover img {
+    transform: scale(1.1,1.1);
+    transform-origin: 0 0;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
