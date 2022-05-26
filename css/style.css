@@ -1,6 +1,6 @@
 body{
-  background-color: #CCF3EE;
-  color: #40514E;
+  background-color: #112B3C;
+  color: #EAF6F6;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -47,7 +47,8 @@ a{
 }
 
 .top-container{
-padding-top: 100px;
+background-color: #15133C;
+padding: 100px 0;
 position: relative;
 }
 
@@ -57,14 +58,22 @@ position: relative;
 margin:100px 0;
 }
 
-.ucloud{
+.astronaut{
+  height: 200px;
+  width: 200px;
   position:absolute;
-  right: 300px;
-  top:40px;
-
+  right: 200px;
+  top:30px;
 }
 
-.bcloud{
+.planet{
+  width: 613.33333px;
+  height: 345.33333px;
+}
+
+.meteor{
+  height: 200px;
+  width: 200px;
   position:absolute;
   left:250px;
   bottom: 300px;
@@ -77,13 +86,13 @@ margin:100px 0;
 }
 
 .computer{
-  width: 25%;
+  width: 33%;
   float: left;
   padding-right: 30px;
 }
 
 .edit{
-   width: 25%;
+   width: 33%;
    float: right;
    padding-left: 30px;
 }
@@ -91,11 +100,11 @@ margin:100px 0;
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #EAF6F6;
+    border-color: #6D8B74;
     border-width: 6px;
     width: 5%;
     margin: 100px auto;
-}
+} -
 
 
 .btn {
@@ -148,3 +157,4 @@ hr {
   font-size: 0.75rem;
   padding: 20px 0;
 }
+
